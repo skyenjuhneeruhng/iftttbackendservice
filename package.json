@@ -1,0 +1,30 @@
+{
+  "name": "ptzoptics-ifttt",
+  "version": "1.0.0",
+  "description": "IFTTT Backend service",
+  "main": "index.js",
+  "scripts": {
+    "cert": "./bin/generate_cert.sh server",
+    "start": "node services/backend"
+  },
+  "keywords": [
+    "ifttt",
+    "service"
+  ],
+  "author": "Hun Gala",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "boom": "^7.2.0",
+    "color": "^3.0.0",
+    "commander": "^2.15.0",
+    "express": "^4.16.3",
+    "hapi": "^17.2.2",
+    "inert": "^5.1.0",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.2.0",
+    "openssl": "^1.1.0",
+    "request": "^2.85.0",
+    "selfsigned": "^1.10.2"
+  }
+}
